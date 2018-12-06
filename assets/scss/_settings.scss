@@ -1,0 +1,32 @@
+.setting {
+    .analytics-graph {
+        background-color: white
+    }
+}
+
+.setting h6,
+.setting p {
+    opacity: 0.5
+}
+
+.setting {
+    p {
+        font-size: 13px;
+        color:#222;
+    }
+}
+
+.setting-list {
+    border-bottom: 1px solid #e1e5eb
+}
+
+.setting-block {
+    width: 80%;
+}
+
+.setting-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    background-color: linear-gradient(#ccd0d6,#adb2bb)
+}

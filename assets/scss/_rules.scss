@@ -1,0 +1,61 @@
+.rules-request {
+    width: 16%;
+    color: #8792a2;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Menlo', 'Consolas', monospace;
+}
+
+.rules-risk {
+    width: 62%;
+    color: #4e566d;
+    font-size: 12px;
+    font-family: 'Menlo', 'Consolas', monospace;
+}
+
+.rules-result {
+    width: 25%;
+}
+
+.rules-result {
+    p {
+        color: #697386;
+        font-family: 'Menlo', 'Consolas', monospace;
+    }
+}
+
+
+.rules-result {
+    i {
+        font-size: 20px;
+        color: #697386;
+        margin-top: 1px;
+        padding: 2px 6px;
+    }
+}
+
+.hover{
+    &:hover{
+        background-color: #f7fafc
+    }
+}
+
+
+.hover {
+	&:hover {
+		.rules-result {
+			i {
+                box-shadow: $box-shadow;
+                border-radius: 4px;
+			}
+		}
+	}
+}
+
+
+.rules-border-top{
+    border-top: 0.5px solid rgb(230, 234, 240)
+}
+
+.text-red{color:red}
+

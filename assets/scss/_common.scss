@@ -1,0 +1,109 @@
+p,
+div,
+input,
+textarea,
+button,
+li,
+span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2b2d50
+}
+
+body,
+html {
+    font-family: $font-family-sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-sans-serif;
+    font-weight: 400;
+    color: #2b2d50
+}
+
+.btn {
+    color: #4e566d;
+    height: 30px;
+    padding: 1px 7px;
+    font-size: 13px;
+    font-family: $font-family-sans-serif;
+}
+
+.btn {
+    &:hover {
+        color: black;
+    }
+}
+
+.default-text-color {
+    color: $primary
+}
+
+.default-font-size {
+    font-size: 14px;
+}
+
+.font-weight-bold {
+    font-weight: 700
+}
+
+.btn-primary {
+    background-color: $btn-primary;
+    border-color: $btn-primary;
+    color: white;
+}
+
+.btn-primary {
+    &:hover {
+        color: white
+    }
+}
+
+.strong {
+    font-weight: bold
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.empty {
+    background-color: white;
+    height: 560px;
+    border-top: 2px solid $box-backgroud;
+}
+
+select.form-control {
+    font-size: 14px
+}
+
+.table-hover {
+    tbody {
+        tr {
+            &:hover {
+                background-color: #f7fafc
+            }
+        }
+    }
+}
+
+tbody {
+    background-color: white
+}
+
+.hover-text {
+    color: #586ada
+}
+
+.hover-text {
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
+}

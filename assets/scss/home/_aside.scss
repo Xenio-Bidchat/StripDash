@@ -1,0 +1,445 @@
+.container {
+    max-width: 1380px !important;
+    display: flex;
+}
+
+.header {
+    display: flex
+}
+
+.aside-menu li {
+    cursor: $custom-range-track-cursor;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: $white;
+}
+
+.icon {
+    i {
+        margin-left: 8px;
+        margin-top: 7px;
+        color: #abc;
+    }
+}
+
+.add-name {
+    color: $primary;
+    text-decoration: none;
+}
+
+.add-name {
+    &:hover {
+        color: $black;
+        text-decoration: none;
+    }
+}
+
+.dropdown-menu {
+    .icon {
+        i {
+            margin-left: 8px;
+            margin-top: 0px;
+            color: #abc;
+        }
+    }
+}
+
+aside {
+    width: 20%;
+}
+
+.new-account-content {
+    .dropdown-menu {
+        top: -11px !important;
+        left: -1px !important;
+        width: 100%;
+        transform: none !important;
+    }
+}
+
+.dropdown-menu li {
+    &:hover {
+        background: $primary;
+        color: white
+    }
+}
+
+.dropdown-menu li {
+    &:hover p {
+        color: white
+    }
+}
+
+.menu {
+    .media {
+        i {
+            width: 17px
+        }
+    }
+}
+
+// Switch CSS
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: #ccc;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(9px);
+    -ms-transform: translateX(9px);
+    transform: translateX(9px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.disabled {
+    color: #a3acb9;
+    opacity: 0.3;
+}
+
+.form-control {
+    &:focus {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+textarea {
+    &:focus {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+// main css
+.search {}
+
+.search {
+    .form-control {
+        height: 30px;
+        font-size: 14px;
+        color: #b9bcc1;
+        box-shadow: $box-shadow;
+    }
+}
+
+.search {
+    .input-group-text {
+        height: 28px;
+        padding: 2px;
+        background-color: #fff;
+        border: none
+    }
+}
+
+.search {
+    i {
+        position: absolute;
+        top: 6px;
+        left: 4px;
+        color: #b9bcc1
+    }
+}
+
+.feedback {
+    position: relative
+}
+
+.feedback {
+    .feedback-block {
+        height: 30px;
+        font-size: 14px;
+        color: #b9bcc1;
+        box-shadow: $box-shadow;
+        width: 230px;
+        background-color: $box-backgroud;
+        border-radius: 3px
+    }
+}
+
+.feedback-block {
+    p {
+        display: inline-block;
+        margin-top: 4px;
+    }
+}
+
+.feedback-form {
+    left: -10px !important;
+    background-color: $white;
+    border-radius: 4px;
+    top: -33px !important;
+}
+
+.btn {
+    box-shadow: $box-shadow
+}
+
+.feedback-form {
+    textarea {
+        resize: none;
+        border: none;
+        border-radius: 4px;
+        height: 143px;
+        width: 290px
+    }
+}
+
+.header-icons {
+    i {
+        margin-top: 5px;
+        font-size: 20px;
+        color: #b3bfcb
+    }
+}
+
+.dropdown {
+    li {
+        color: $primary;
+    }
+}
+
+.dropdown {
+    li {
+        &:hover {
+            background-color: #e3e7ee;
+            color: black;
+        }
+    }
+}
+
+.fa-address-book {
+    .dropdown {
+        &:after {
+            width: 0;
+            height: 0;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid blue;
+            border-left: 10px solid transparent;
+        }
+    }
+}
+
+.send-feedback {
+    margin-left: 95px
+}
+
+// maini main css
+.main-main {
+    width: 100%
+}
+
+.main-graph {
+    height: 180px;
+    background-color: #586ada;
+    display: flex;
+    border-radius: 4px;
+    padding-top: 10px;
+    box-shadow: $box-shadow;
+    position: relative;
+}
+
+.test-data {
+    width: 70px;
+    height: 16px;
+    position: absolute;
+    background-color: #f1946a;
+    top: 0;
+    left: 40%;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.test-data {
+    &:before {
+        width: 0;
+        height: 0;
+        border-right: 0px solid transparent;
+        border-bottom: 27px solid transparent;
+        border-top: 7px solid red;
+        border-left: 7px solid transparent;
+    }
+}
+
+.price {
+    color: $white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.stats {
+    small {
+        font-size: 65%;
+        font-weight: 200;
+    }
+}
+
+.form-control {
+    height: 30px
+}
+
+.main-analytics {
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 1px;
+    width: 100%;
+}
+
+.filter1 {
+    position: relative;
+}
+
+/*Add*/
+
+.color {
+    height: 20px;
+    width: 25px;
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 0;
+}
+
+.red {
+    background: white;
+}
+
+.analyics-header {
+    p {
+        font-size: 16px;
+    }
+}
+
+.analytics-filter {
+    ul {
+        box-shadow: $box-shadow;
+        border-radius: 4px
+    }
+}
+
+.analytics-filter {
+    ul {
+        li {
+            margin-left: 5px
+        }
+    }
+}
+
+.analytics-filter-month {
+    i {
+        font-size: 11px
+    }
+}
+
+.btn-customize {
+    p {
+        display: inline-block;
+        margin-block-end: 0;
+    }
+}
+
+.save-cancel-btn {
+    display: none
+}
+
+.analytics-graph {
+    background-color: $box-backgroud;
+}
+
+.analytics-graph {
+    i {
+        font-size: 11px
+    }
+}
+
+.analytics-graph-block {
+    padding-top: 1px
+}
+
+// .analytics-graph-block:hover i{display: inline-block}
+.analytics-graph-block {
+    .price {
+        color: $primary;
+        font-weight: normal;
+    }
+}
+
+.analytics-graph-content {
+    input[type="checkbox"] {
+        padding: 10px
+    }
+}
+
+.analytics-graph-block {
+    li {
+        border-bottom: 1px solid rgba(193, 201, 210, .5);
+        ;
+    }
+}
+
+.checkbox {
+    display: none
+}
+
+.main-graph {
+    .input-dropdown {
+        .form-group {
+            width: 200px;
+        }
+    }
+}

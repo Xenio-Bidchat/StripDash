@@ -1,0 +1,16 @@
+.role-block {
+    background-color: white
+}
+
+
+.role-block {
+    ul {
+        li {
+            &:nth-child(odd) {
+                background-color: #f7f9fa
+            }
+        }
+    }
+}
+
+

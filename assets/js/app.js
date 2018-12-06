@@ -2,12 +2,12 @@
 
 // An object literal
 var app = {
-  init: function() {
+  init: function () {
     app.functionOne();
   },
-  functionOne: function () {
-  }
+  functionOne: function () {}
 };
 $("document").ready(function () {
   app.init();
+
 });

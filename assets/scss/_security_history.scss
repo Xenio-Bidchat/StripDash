@@ -1,0 +1,85 @@
+.security-table {
+    table {
+        td {
+            display: inline-block;
+        }
+    }
+}
+
+.security-table {
+    table {
+        .action {
+            width: 50%;
+        }
+    }
+}
+
+.security-table {
+    table {
+        .category {
+            width: 10%;
+        }
+    }
+}
+
+.security-table {
+    table {
+        .device-id {
+            width: 10%;
+        }
+    }
+}
+
+.security-table {
+    table {
+        .ip-address {
+            width: 15%;
+        }
+    }
+}
+
+.security-table {
+    table {
+        .timestamp {
+            width: 15%;
+        }
+    }
+}
+
+.action {
+    p {
+        display: inline-block;
+    }
+}
+
+.security-table {
+    i {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.badge {
+    background-color: $body-bg;
+    border-radius: 10px;
+    padding: 5px 9px;
+    color: #4e566d;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tbody {
+    background-color: white
+}
+
+.tbody {
+    &:hover {
+        background-color: #f7fafc
+    }
+}
+
+.security-collapse{
+    i{
+        font-size: 12px;
+    }
+}

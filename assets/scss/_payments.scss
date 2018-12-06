@@ -1,0 +1,170 @@
+.new-export {
+    display: inline-block
+}
+
+.payment-filter {
+    .new-export {
+        .right {
+            transform: rotate(300deg);
+        }
+    }
+}
+
+.payment-table {
+    background-color: white;
+}
+
+.table {
+    .thead-light {
+        background-color: $box-backgroud;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+.table {
+    .thead-light {
+        td {
+            color: #2b2d50;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.payment-table {
+    table {
+        td {
+            display: inline-block
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .checkbox input {
+            display: none
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .checkbox {
+            width: 4%
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .amount {
+            width: 25%
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .description {
+            width: 45%
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .customer {
+            width: 10%
+        }
+    }
+}
+
+.payment-table {
+    table {
+        .date {
+            width: 16%
+        }
+    }
+}
+
+.amount {
+    div {
+        display: inline-block;
+    }
+}
+
+.payment-table tr:hover .checkbox input {
+    display: inline-block
+}
+
+.more-details {
+    p {
+        display: inline-block;
+        color: $primary;
+        cursor: $custom-range-track-cursor;
+    }
+}
+
+.more-details {
+    i {
+        font-size: 19px;
+        font-weight: bold;
+        cursor: $custom-range-track-cursor;
+    }
+}
+
+.payment-filter {
+    input[type="checkbox"] {
+        width: 8%
+    }
+}
+
+.more-details-show {
+    .advanced {
+        p {
+            display: inline-block;
+            margin-top: 6px;
+            font-size: 13px;
+        }
+    }
+}
+
+.payment-filter {
+    .modal-footer {
+        border-top: 2px solid white;
+        background-color: $box-backgroud
+    }
+}
+
+.modal-body {
+    background-color: $box-backgroud
+}
+
+.box-footer {
+    div {
+        display: inline-block
+    }
+}
+
+.box-footer {
+    border-top: 2px solid $box-backgroud;
+}
+
+.box-footer {
+    .footer-text {
+        color: #4e566d;
+    }
+}
+
+.succeed{
+    background-color: #d6ecff;
+    border-radius: 34px;
+    padding: 0px 10px;
+    color:#484bad;
+}
+
+.succeed{
+    i{
+        font-weight: 100;
+        font-size: 14px
+    }
+}

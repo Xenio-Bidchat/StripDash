@@ -1,0 +1,99 @@
+.inner-text {
+    color: $primary
+}
+
+.activate-account-content {
+    span {
+        i {
+            font-size: 12px;
+        }
+    }
+}
+
+.account-form {
+    .form-group {
+        width: 250px;
+    }
+}
+
+input::placeholder {
+    font-size: 13px;
+    font-family: 'roboto';
+    opacity: 0.8;
+}
+
+.state {
+    option {
+        font-family: 'roboto';
+        font-weight: 300
+    }
+}
+
+.optional {
+    background-color: #e3e7ee;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 2px
+}
+
+.description-textarea {
+    textarea {
+        width: 500px;
+        height: 105px;
+        resize: none;
+        border: 1px solid #f7fafc;
+        border-radius: 4px
+    }
+}
+
+.account-form {
+    label {
+        font-weight: 500
+    }
+}
+
+.form-group-group {
+    border-bottom: 3px solid white
+}
+
+.group-heading {
+    width: 697px
+}
+
+.input-group {
+    select {
+        border-right: none;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px
+    }
+}
+
+.input-group-text {
+    height: 30px;
+    background-color: white;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.input-group-append {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px
+}
+
+select.input-group-text {
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.dob {
+    input {
+        width: 48px;
+    }
+}
+
+.form-btns {
+    background-color: white;
+    width:100%;
+}

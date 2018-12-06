@@ -1,0 +1,48 @@
+.balance {
+    background-color: #fcf9e9
+}
+
+.fa-exclamation-circle{
+    color:red
+}
+
+.balance-block {
+    background-color: white;
+}
+
+.outer-box {
+    display: block !important;
+}
+
+.balance-block {
+    box-shadow: $box-shadow;
+    border-radius: 4px
+}
+
+.balance-block-header {
+    h3 {
+        font-weight: 350;
+    }
+}
+
+.balance-block {
+    padding-top: 1px;
+    font-size: 16px;
+}
+
+.balance-block-text {
+    width: 85%;
+  font-size: 16px;
+}
+
+.balance-block-price {
+    text-align:right;
+    width: 15%;
+    font-size: 16px;
+}
+
+.list-table{
+    .table{
+        
+    }
+}
